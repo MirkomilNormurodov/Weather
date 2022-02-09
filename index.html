@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weather</title>
+</head>
+<body>
+    <h1 class="title">Weather Forecast Worldwide</h1>
+
+    <div class="input">
+        <input type="text" class="inputValue" placeholder="Enter a city">
+        <input type="submit" value="Submit" class="button">
+    </div><!-- /.input -->
+
+    <ul class="js-list"></ul>
+    <div class="js-append"></div>
+
+    <div class="display">
+        <h1 class="name"></h1><!-- /.name -->
+        <p class="desc"></p><!-- /.desc -->
+        <p class="temp"></p><!-- /.temp -->
+        <div class="subject">
+            <p class="coord-lat" data-lat="40.3842"></p><!-- /.coord-lat -->
+            <p class="coord-lon" data-lon="71.7843"></p><!-- /.coord-lon -->
+        </div><!-- /.subject -->
+    </div><!-- /.display -->
+
+
+    <div class="container">
+        <div class="js-content">
+        <button class="city-btn" data-lat="40.75" data-lon="72.3333">Andijan</button>
+        <button class="city-btn" data-lat="39.7747" data-lon="64.4286">Bukhara</button>
+        <button class="city-btn" data-lat="40.1158" data-lon="67.8422">Jizzakh</button>
+        <button class="city-btn" data-lat="40.3842" data-lon="71.7843">Fergana</button>
+        <button class="city-btn" data-lat="44.2164" data-lon="58.8299">Karakalpakstan</button>
+        <button class="city-btn" data-lat="40.9983" data-lon="71.6726">Namangan</button>
+        <button class="city-btn" data-lat="40.0844" data-lon="65.3792">Navoiy</button>
+        <button class="city-btn" data-lat="38.5833" data-lon="66">Qashqadaryo</button>
+        <button class="city-btn" data-lat="39.6542" data-lon="66.9597">Samarkand</button>
+        <button class="city-btn" data-lat="40.8436" data-lon="68.6617">Sirdaryo</button>
+        <button class="city-btn" data-lat="41.2646" data-lon="69.2163">Tashkent</button>
+        <button class="city-btn" data-lat="37.2242" data-lon="67.2783">Termez</button>
+        <button class="city-btn" data-lat="41.3783" data-lon="60.3639">Khiva</button>
+        </div><!-- /.js-content -->
+    </div><!-- /.container -->
+
+
+
+
+
+    
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

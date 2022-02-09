@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    /* background-color: #cbe0f1; */
+    /* background-color: #89C8E1; */
+  }
+
+  .container{
+    max-width: 1100px;
+    margin: 0 auto;
+
+  }
+
+  .title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(32, 33, 41);
+  }
+
+  .input{
+      text-align: center;
+      margin: 50px 0;
+      padding: 0 10px;
+  }
+
+  input[type="text"]{
+      height: 50px;
+      width: 600px;
+      background-color: #f1f1f1;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 10px;
+  }
+
+  input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .display{
+      text-align: center;
+  }
+
+  .city-btn{
+    width: 220px;
+    margin: 5px 20px;
+    padding: 10px 20px;
+  }
+
+  .subject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .coord-lat{
+    margin-right: 20px;
+  }
+
+.js-content:last-child{
+  text-align: center;
+}
+
+.city-btn{
+  padding: 15px 0;
+  font-size: 25px;
+  color: rgb(59, 0, 94);
+  /* background-color: rgb(75, 174, 187); */
+  background-color: #36a6d3;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.city-btn:hover{
+  padding: 15px 0;
+  font-size: 22px;
+  color: bisque;
+  background-color: #3487A8;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn{
+  margin: 30px auto;
+  margin-left: 20px;
+  padding: 10px 5px;
+  width: 130px;
+  border: none;
+  color: rgb(46, 35, 22);
+  background-color: rgb(212, 207, 207);
+  cursor: pointer;
+}
+
+
+
+.js-items{
+  position: relative;
+  z-index: 2;
+  top: -80px;
+  left: -50px;
+  max-width: 595px;
+  text-align: start;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 5px;
+}
+
+.js-bttn{
+  width: 570px;
+  border: none;
+  margin: 7px 10px 7px 10px;
+  padding: 10px 20px;
+  text-align: start;
+  border-radius: 4px;
+}
+
+.btn{
+  padding: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #35032a;
+  border-radius: 8px;
+  background-color: rgb(238, 230, 230);
+}
+
+.js-display{
+  margin: 0 auto;
+}
+
+.lists{
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.js-name{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+
+
